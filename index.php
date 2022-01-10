@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
 require_once 'src/GifCreator/GifCreator.php';
 // Create an array containing file paths, resource var (initialized with imagecreatefromXXX), 
 // image URLs or even binary code from image files.

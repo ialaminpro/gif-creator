@@ -13,7 +13,10 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "cloudmersive/cloudmersive_video_api_client": "^1.0",
+        "cloudmersive/cloudmersive_imagerecognition_api_client": "^1.6"
     },
     "autoload": {
         "psr-0": { "GifCreator": "src" }
